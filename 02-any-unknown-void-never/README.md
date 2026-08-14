@@ -42,7 +42,7 @@ antes de usar. Cuando un valor llega sin tipo conocido, se usa `unknown`, nunca
 `any`. (La forma de comprobar y "reducir" el tipo se ve en detalle en el tema de
 *narrowing*.)
 
-## `void` — no devuelve nada
+## `void` — no importa lo que devuelve
 
 `void` es el tipo de retorno de una función que se ejecuta por su efecto, no por
 su resultado:
