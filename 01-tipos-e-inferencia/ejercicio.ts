@@ -4,11 +4,11 @@
 // Correr `npm test` y dejar todo en verde.
 
 // 1. Anotar el tipo correcto de `titulo` (un texto).
-export let titulo = "Curso de TypeScript";
+export let titulo: string = "Curso de TypeScript";
 
 // 2. Anotar el tipo correcto de `anio` (un número) y de `enCurso` (un booleano).
-export let anio: unknown = "carlos";
-export let enCurso = true;
+export let anio: number = 2026;
+export let enCurso: boolean = true;
 
 // 3. Implementar `saludar`: recibe un nombre y devuelve "Hola, <nombre>".
 export function saludar(nombre: string): string {
