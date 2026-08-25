@@ -5,3 +5,5 @@ dist/
 
 # Material del docente, no se envía al alumno
 TEMARIO.md
+
+.vscode/
