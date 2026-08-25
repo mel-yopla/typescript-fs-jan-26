@@ -21,6 +21,7 @@ test("1 · titulo es un string", () => {
 //! Da falsos positivos
 test("2 · anio es number y enCurso es boolean", () => {
   expectTypeOf(anio).toEqualTypeOf<number>();
+  // expect(anio).toBeTypeOf("number");
   expectTypeOf(enCurso).toEqualTypeOf<boolean>();
 });
 
