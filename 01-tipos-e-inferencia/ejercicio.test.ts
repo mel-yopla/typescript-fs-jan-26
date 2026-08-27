@@ -2,6 +2,8 @@
 // Mostrará errores en rojo hasta completar `ejercicio.ts`; eso es lo esperado,
 // no un fallo de los tests. No editar este archivo.
 
+//*NECESARIO VERIFICAR CON TYPECHECK
+
 import { test, expect, expectTypeOf } from "vitest";
 import {
   titulo,
@@ -13,12 +15,10 @@ import {
   resumen,
 } from "./ejercicio";
 
-//! Da falsos positivos
 test("1 · titulo es un string", () => {
   expectTypeOf(titulo).toEqualTypeOf<string>();
 });
 
-//! Da falsos positivos
 test("2 · anio es number y enCurso es boolean", () => {
   expectTypeOf(anio).toEqualTypeOf<number>();
   expectTypeOf(enCurso).toEqualTypeOf<boolean>();
