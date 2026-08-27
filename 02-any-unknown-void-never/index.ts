@@ -1,14 +1,13 @@
-// let a: any = "carlos";
+let a: any = "carlos";
 
 // * Quitar any y tienes el autocompletado
-// a.test();
+a.test();
 
-// let dato: unknown = "texto";
-// dato.
-// dato.test();
-// if (typeof dato === "string") {
-//   dato.charAt(3);
-// }
+let dato: unknown = "texto";
+// dato.dato.test();
+if (typeof dato === "string") {
+  dato.charAt(3);
+}
 
 function registrar(mensaje: string): void {
   console.log(mensaje);
